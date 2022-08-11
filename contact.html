@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h3 align="center">Enquiry Form</h3> -->
+    <form>
+        <fieldset>
+            <legend>Enquiry Form</legend>
+        <!-- <caption>company name</caption> -->
+      Company name:<input type="text" placeholder="please enter your compay name" name="company" value="">
+      <br/>
+      <br/>
+      Name:<input type="text" placeholder="Your name" name="name" value="">
+      <br/>
+      <br/>
+      Address: <textarea name="address"></textarea>
+      <br/>
+      Location:
+      <select name="location">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="pune">Pune</option>
+        <option value="bangluru">Bangluru</option>
+      </select>
+      <br/>
+      Gender:
+      <label for="101">
+       <input type="radio" name="gender" value="m" id="101">Male
+    </label> 
+    <label for="102">
+       <input type="radio" name="gender" value="f" id="102">female
+    </label>
+<label for="103">
+       <input type="radio" name="gender" value="o" id="103">other
+    </label>
+      <br/>
+      Courses:
+      <input type="checkbox" name="courses[]" value="html">html
+      <input type="checkbox" name="courses[]" value="css">css
+      <input type="checkbox" name="courses[]" value="JS">JS
+      <br/>
+      <br/>
+      Image:
+      <input type="file" name="Image">
+
+      <br/>
+      <br/>
+      <input type="submit" name="submit" value="send">
+      <input type="reset" name="submit" value="reset">
+      
+
+    </fieldset>
+    </form>
+</body>
+</html>
