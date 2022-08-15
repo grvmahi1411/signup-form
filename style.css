@@ -1,0 +1,100 @@
+:root{
+box-sizing: border-box;
+}
+@font-face{
+    font-family: abc;
+    src: url('eth.ttf');
+}
+
+legend{
+    color: blue;
+}
+body{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border: solid black;
+   /* padding-bottom: 50px; */
+}
+#bg{
+   /* background-color: blue;*/
+   background-image: url(/tiranga.jpg);
+   background-size: cover;
+   border: solid black;
+   text-align: center;
+   padding-bottom: 30px;
+   /* padding-bottom: 50px; */
+   margin: 10px 0px 10px 0px;
+   text-transform: uppercase;
+   text-decoration: underline white;
+   text-shadow: 3px -10px 6px rgb(69, 66, 66);
+   font-family: abc;
+   
+
+
+
+}
+#p1{
+    background-color: blue;
+}
+#bgform{
+    text-align: -webkit-center;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    /* padding: 50px; */
+    
+}
+.form{
+    background-image: url(/tiranga.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: 800px;
+   text-align:left;
+   /* border: solid 2px #000; */
+   border: groove black;
+   border-radius: 20px;
+   padding:20px 50px;  
+
+}
+
+
+.para{
+background-color: blue;
+color: #fff;
+
+/* height: 50px;
+width: 70%;
+/* max-width: 500px;
+min-width: 100px;
+max-height: 500px;
+min-height: 100px; */
+/* border: solid 2px red; */ 
+border: dotted red;
+border-radius: 5px 5px 5px 5px;
+padding-right: 10%;
+padding-left: 10%;
+margin-bottom: 50px;
+font-size: 20px;
+font-weight: 200;
+font-family: 'Poppins', sans-serif;
+}
+/* link decoration in page start*/
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+/* link decoration in page end*/
+
+   
